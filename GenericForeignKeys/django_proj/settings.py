@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    
+    # my apps
+    'tasks',
+    
+    # django built in
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
